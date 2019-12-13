@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*navbar lagi diilangin*/
 .navbar{
     position: fixed;
@@ -54,7 +58,7 @@
     display: block;
     position: absolute;
     width: 100%;
-    height: 1000px;
+    height: 1200px;
 }
 
 
@@ -121,7 +125,7 @@ button{
 }
 
 
-.homepage-top-content #homepage-button-project{
+#homepage-button-project{
     background-color: transparent;
     border: 2px white solid;
     border-radius: 20px;
@@ -129,18 +133,19 @@ button{
     margin-top: 20px;
 }
 
-.homepage-top-content #homepage-button-project:hover{
+#homepage-button-project:hover{
     background-color: lightblue;
 }
 
-.homepage-top-content #homepage-button-project:hover p{
+#homepage-button-project:hover a{
        color: black;
 }
 
-.homepage-top-content #homepage-button-project p{
+#homepage-button-project a{
     font-size: 26px;
     color: white;
     font-weight: bold;
+    text-decoration: none;
 }
 
 /* Button edit lagi woii */
@@ -167,7 +172,7 @@ body{
     padding: 50px;
 }
 
-.project-1{
+.project{
     padding: 100px;
     margin: 20px;
     border: 2px black solid;
@@ -176,8 +181,7 @@ body{
     
 }
 
-.contact-me{
-    background-color: royalblue;
+.project-button{
     width: 100%;
-    height: 720px;
+    text-align: center;
 }
