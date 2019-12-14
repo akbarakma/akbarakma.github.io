@@ -1,3 +1,4 @@
+/*INI WEBSITE BELUM RESPONSIVE*/
 *{
     margin: 0;
     padding: 0;
@@ -168,7 +169,7 @@ body{
 }
 
 .project{
-    padding: 50px 0 0 0;
+    padding-top: 50px;
     height: 300px;
     margin: 50px auto;
     width: 90%;
