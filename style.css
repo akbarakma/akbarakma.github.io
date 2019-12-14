@@ -49,7 +49,7 @@ html{
     display: block;
     position: relative;
     width: 100%;
-    height: 720px;
+    height: 100%;
 }
 
 #background-2{
@@ -58,12 +58,12 @@ html{
     display: block;
     position: relative;
     width: 100%;
-    height: 1300px;
+    height: 100%;
 }
 
 .contact-me{
     display: block;
-    position: absolute;
+    position: relative;
     width: 100%;
     background-color: black;
     height: 250px;
@@ -163,29 +163,34 @@ body{
 
 .latest-project{
     width: 100%;
-    height: 720px;
-    position: absolute;
+    height: 1500px;
 }
 
 #experience-header{
     font-size: 60px;
     text-align: center;
-    margin: 50px;
+    padding: 50px;
     color: white;
 }
 
 #hacktiv8{
     float: left;
-    padding: 50px;
+    padding: 20px;
 }
 
 .project{
-    padding: 100px;
-    margin: 20px;
+    padding: 50px 0 0 0;
+    height: 300px;
+    margin: 50px auto;
+    width: 90%;
     border: 2px black solid;
     background: white;
     border-radius: 30px;
     
+}
+
+.project h2{
+    margin-top: 30px;
 }
 
 .project-button{
@@ -197,7 +202,7 @@ body{
     text-align: center;
     color: white;
     font-size: 20px;
-    margin: 20px;
+    padding: 20px;
 }
 
 .contact-me{
@@ -214,4 +219,35 @@ body{
     color: white;
     padding: 50px;
     text-align: center;
+}
+
+.about-me-card{
+    margin: auto;
+    width:50%;
+    padding-bottom: 50px;
+}
+
+.about-me-card-container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 30px;
+    position: relative;
+    text-align: center;
+    padding: 50px;
+}
+
+#about-me-name{
+    font-size: 40px;
+    margin: 30px;
+}
+
+.about-me-description{
+    padding: 50px;
+}
+
+.about-me-description p{
+    font-size: 24px;
+    text-align: justify;
 }
