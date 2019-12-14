@@ -175,6 +175,7 @@ body{
     border: 2px black solid;
     background: white;
     border-radius: 30px;
+    overflow: hidden;
     
 }
 
@@ -215,6 +216,7 @@ body{
     margin: auto;
     width:50%;
     padding-bottom: 50px;
+    overflow: hidden;
 }
 
 .about-me-card-container{
