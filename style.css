@@ -1,268 +1,276 @@
 /*INI WEBSITE BELUM RESPONSIVE*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-.navbar{
-    position: absolute;
-    z-index: 2;
-    text-align: right;
-    width: 100%;
-    padding: 30px;
+.navbar {
+  position: absolute;
+  z-index: 2;
+  text-align: right;
+  width: 100%;
+  padding: 30px;
 }
 
-.navbar ul li{
-    display: inline-block;
+.navbar ul li {
+  display: inline-block;
 }
 
-#header-name{
-    float: left;
-    font-size: 40px;
+#header-name {
+  float: left;
+  font-size: 40px;
 }
 
-.homepage-top{
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 720px;
-    text-align: center;
+.homepage-top {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 720px;
+  text-align: center;
 }
 
-.background{
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("homepage-background.jpeg");
-    background-size: cover;
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 100%;
+.background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("homepage-background.jpeg");
+  background-size: cover;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-#background-2{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("homepage-background-2.jpeg");
-    background-size: cover;
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 100%;
+#background-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("homepage-background-2.jpeg");
+  background-size: cover;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-.contact-me{
-    display: block;
-    position: relative;
-    width: 100%;
-    background-color: black;
-    height: 250px;
+.contact-me {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-color: black;
+  height: 250px;
 }
 
-.homepage-top-content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.line {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-color: black;
+  height: 50px;
 }
 
-.homepage-top-content #name-homepage{
-    font-size: 50px;
-    color: white;
-    letter-spacing: 5px;
-    width: 1000px;
+.homepage-top-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.homepage-top-content #name-homepage-detail{
-    font-size: 32px;
-    color: lightblue;
-    margin: 20px auto;
+.homepage-top-content #name-homepage {
+  font-size: 50px;
+  color: white;
+  letter-spacing: 5px;
+  width: 1000px;
 }
 
-.icon .icon-content li{
-    display: inline-block;
-    text-decoration: none;
+.homepage-top-content #name-homepage-detail {
+  font-size: 32px;
+  color: lightblue;
+  margin: 20px auto;
 }
 
-.icon .icon-content img:hover{
-    opacity: 100%;
-    transition: 0.5s;
+.icon .icon-content li {
+  display: inline-block;
+  text-decoration: none;
 }
 
-.icon .icon-content img{
-    opacity: 60%;
+.icon .icon-content img:hover {
+  opacity: 100%;
+  transition: 0.5s;
+}
+
+.icon .icon-content img {
+  opacity: 60%;
 }
 
 .icon-list {
-    margin: 5px;
+  margin: 5px;
 }
 
-button{
-    cursor: pointer;
-    transition-duration: 0.4s;
+button {
+  cursor: pointer;
+  transition-duration: 0.4s;
 }
 
-#homepage-button-contact{
-    background-color: transparent;
-    border: 2px white solid;
-    border-radius: 20px;
-    padding: 10px 30px;
+#homepage-button-contact {
+  background-color: transparent;
+  border: 2px white solid;
+  border-radius: 20px;
+  padding: 10px 30px;
 }
 
-#homepage-button-contact:hover{
-    background-color: lightblue;
+#homepage-button-contact:hover {
+  background-color: lightblue;
 }
 
-#homepage-button-contact:hover a{
-    color: black;
+#homepage-button-contact:hover a {
+  color: black;
 }
 
-#homepage-button-contact a{
-    font-size: 26px;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
+#homepage-button-contact a {
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-
-#homepage-button-project{
-    background-color: transparent;
-    border: 2px white solid;
-    border-radius: 20px;
-    padding: 10px 20px;
-    margin-top: 50px;
+#homepage-button-project {
+  background-color: transparent;
+  border: 2px white solid;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-right: 10px;
 }
 
-#homepage-button-project:hover{
-    background-color: lightblue;
+#homepage-button-project:hover {
+  background-color: lightblue;
 }
 
-#homepage-button-project:hover a{
-       color: black;
+#homepage-button-project:hover a {
+  color: black;
 }
 
-#homepage-button-project a{
-    font-size: 26px;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
+#homepage-button-project a {
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
+
 
 /* Button edit lagi woii */
 
-body{
-    height: 2160px;
+body {
+  height: 2160px;
 }
 
-.latest-project{
-    width: 100%;
-    height: 1500px;
+.latest-project {
+  width: 100%;
 }
 
-#experience-header{
-    font-size: 60px;
-    text-align: center;
-    padding: 50px;
-    color: white;
+#experience-header {
+  font-size: 60px;
+  text-align: center;
+  padding: 50px;
+  color: white;
 }
 
-#hacktiv8{
-    float: left;
-    padding: 20px;
-    width: 400px;
-    height: 200px;
+#hacktiv8 {
+  float: left;
+  padding: 20px;
+  width: 400px;
+  height: 200px;
 }
 
-.project{
-    text-align: center;
-    padding-top: 50px;
-    height: 300px;
-    margin: 50px auto;
-    width: 90%;
-    border: 2px black solid;
-    background: white;
-    border-radius: 30px;
-    overflow: hidden;
-    
+.project {
+  text-align: center;
+  padding-top: 50px;
+  height: 300px;
+  margin: 50px auto;
+  width: 90%;
+  border: 2px black solid;
+  background: white;
+  border-radius: 30px;
+  overflow: hidden;
 }
 
-.project h2{
-    margin-top: 30px;
+.project h2 {
+  margin-top: 30px;
 }
 
-.project-button{
-    width: 100%;
-    text-align: center;
+.project-button {
+  width: 100%;
+  text-align: center;
 }
 
-#contact-me-email{
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
+#contact-me-email {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
 }
 
-.contact-me{
-    text-align: center;
+.contact-me {
+  text-align: center;
 }
 
-.contact-me a{
-    text-decoration: underline;
-    color: white;
+.contact-me a {
+  text-decoration: underline;
+  color: white;
 }
 
-#about-me{
-    font-size: 50px;
-    color: white;
-    padding: 50px;
-    text-align: center;
-    padding-top: 120px;
+#about-me {
+  font-size: 50px;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  padding-top: 120px;
 }
 
-.about-me-card{
-    margin: auto;
-    width:50%;
-    padding-bottom: 50px;
-    overflow: hidden;
+.about-me-card {
+  margin: auto;
+  width: 50%;
+  padding-bottom: 50px;
+  overflow: hidden;
 }
 
-.about-me-card-container{
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    border: 2px black solid;
-    border-radius: 30px;
-    position: relative;
-    text-align: center;
-    padding: 50px;
+.about-me-card-container {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: 2px black solid;
+  border-radius: 30px;
+  position: relative;
+  text-align: center;
+  padding: 50px;
 }
 
-#about-me-name{
-    font-size: 40px;
-    margin: 30px;
+#about-me-name {
+  font-size: 40px;
+  margin: 30px;
 }
 
-.about-me-description{
-    padding: 50px;
+.about-me-description {
+  padding: 50px;
 }
 
-.about-me-description p{
-    font-size: 24px;
-    text-align: justify;
+.about-me-description p {
+  font-size: 24px;
+  text-align: justify;
 }
 
-footer{
-    background-color: black;
-    text-align: center;
+footer {
+  background-color: black;
+  text-align: center;
 }
 
-footer h1{
-    color: white;
-    padding-top: 30px;
+footer h1 {
+  color: white;
+  padding-top: 30px;
 }
 
-footer h2{
-    color: white;
-    padding: 20px;
+footer h2 {
+  color: white;
+  padding: 20px;
 }
