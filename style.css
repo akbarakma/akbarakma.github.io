@@ -94,6 +94,10 @@ html{
     opacity: 60%;
 }
 
+.icon-list {
+    margin: 5px;
+}
+
 button{
     cursor: pointer;
     transition-duration: 0.4s;
