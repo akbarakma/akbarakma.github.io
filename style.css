@@ -166,9 +166,12 @@ body{
 #hacktiv8{
     float: left;
     padding: 20px;
+    width: 400px;
+    height: 200px;
 }
 
 .project{
+    text-align: center;
     padding-top: 50px;
     height: 300px;
     margin: 50px auto;
